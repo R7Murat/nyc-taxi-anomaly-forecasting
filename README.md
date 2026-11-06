@@ -16,6 +16,6 @@ Day-ahead forecast of the 24 hours of each day, test period July–December 2016
 
 ## Data and running the notebooks
 
-The notebooks are stored with their outputs, so they can be read on GitHub without running anything. The data is not part of this repository: the raw trip records are published by the NYC Taxi & Limousine Commission (TLC trip record data), and later notebooks read the feature matrix and saved model outputs produced by the earlier stages. Re-running them requires recreating those files locally.
+The notebooks are stored with their outputs, so they can be read on GitHub without running anything. If GitHub does not render a large notebook, the same files open on [nbviewer](https://nbviewer.org/github/R7Murat/nyc-taxi-anomaly-forecasting/tree/main/notebooks/). The data is not part of this repository: the raw trip records are published by the NYC Taxi & Limousine Commission (TLC trip record data), and later notebooks read the feature matrix and saved model outputs produced by the earlier stages. Re-running them requires recreating those files locally.
 
 Environment: Python 3.11, DuckDB for full-data aggregations, pandas, scikit-learn, LightGBM, XGBoost, PyTorch (CPU) and chronos-forecasting.
